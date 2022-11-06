@@ -15,7 +15,6 @@ class MutableStack<E>(vararg items: E) {              // 1
     override fun toString() = "MutableStack(${elements.joinToString()})"
 }
 
-
 fun main() {
     val stack = MutableStack(0.62, 3.14, 2.7)
     stack.push(9.87)
