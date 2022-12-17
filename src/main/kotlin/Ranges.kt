@@ -1,8 +1,10 @@
 fun main() {
+
     for(i in 0..3) {             // 1
         print(i)
     }
     print(" ")
+
 
     for(i in 0 until 3) {        // 2
         print(i)
@@ -18,4 +20,5 @@ fun main() {
         print(i)
     }
     print(" ")
+
 }
